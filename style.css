@@ -628,3 +628,36 @@ body {
     max-width: 780px;
   }
 }
+
+/* ===========================
+   FAQ Section Styles
+   =========================== */
+
+.presell__faq {
+  margin-top: 56px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(76, 255, 80, 0.1);
+}
+
+.faq-item {
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.faq-item h3 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #4cff50;
+  margin-bottom: 12px;
+  line-height: 1.35;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.faq-item:last-child {
+  margin-bottom: 0;
+}
